@@ -32,3 +32,21 @@
     font-family: Merriweather, sans-serif;
     color: rgb(85 85 85)
 }
+
+.border-box {
+    padding-inline: 1.75rem;
+    padding-block: 0.5rem;
+    border: 0.5px solid #9e9d9d;
+    color: black;
+    border-radius: 45px;
+}
+
+/* @media (min-width: 1024px) {
+    .border-box {
+    padding-inline: 1.75rem;
+    padding-block: 0.5rem;
+    border: 0.5px solid #9e9d9d;
+    color: black;
+    border-radius: 45px;
+}
+} */
