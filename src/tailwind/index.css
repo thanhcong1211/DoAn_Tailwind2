@@ -1,2 +1,52 @@
 @import "tailwindcss";
 /* @config '../../tailwind.config.js'; */
+
+:root {
+    --tw-text-opacity: 1;
+    --tw-border-opacity: 1;
+}
+
+.carousel_checkmark {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.links .links_container {
+        background-image: linear-gradient(184.78deg, #fa709a 7.64%, #fee140 120.07%);
+        border-radius: 20px 20px 80px 80px;
+}
+
+.links .links_container .links_item .btn_button {
+    padding-block: 15px;
+    padding-inline: 20px;
+}
+
+.form_control {
+    width: 100%;
+    height: 60px;
+    color: #B5B5B5;
+}
+
+.form-font {
+    font-family: Merriweather, sans-serif;
+    color: rgb(85 85 85)
+}
+
+.border-box {
+    padding-inline: 1.75rem;
+    padding-block: 0.5rem;
+    border: 0.5px solid #9e9d9d;
+    color: black;
+    border-radius: 45px;
+}
+
+/* @media (min-width: 1024px) {
+    .border-box {
+    padding-inline: 1.75rem;
+    padding-block: 0.5rem;
+    border: 0.5px solid #9e9d9d;
+    color: black;
+    border-radius: 45px;
+}
+} */
